@@ -1,1 +1,32 @@
-"logs/" 
+# Logs
+logs/
+*.log
+skipped_images.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+service_account.json
+encoded.txt
+
+# IDE / editor
+.idea/
+.vscode/
+
+# Generated / cache data
+mira/data/generated/
+mira/data/ref_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop - Shortcut.lnk

@@ -1,0 +1,71 @@
+{
+  "search_keywords": {
+    "en": [
+      "kitchen", "bathroom", "living room", "bedroom", "dining room", "studio",
+      "open space", "entryway", "closet", "pantry", "island", "countertop",
+      "drawer", "cabinet", "sink", "mirror", "bathtub", "shower", "toilet",
+      "bed", "sofa", "armchair", "table", "chair", "bookshelf", "shelving",
+      "lighting", "lamp", "floor lamp", "chandelier", "wall lamp",
+      "tiles", "wood", "teak", "marble", "glass", "steel", "concrete",
+      "modern", "classic", "minimalist", "rustic", "industrial", "scandinavian",
+      "design", "layout", "furnishing", "interior", "decoration", "style","sketch","drawing",
+      "wall", "floor", "ceiling", "color", "black", "white", "gray", "blue", "green",
+      "texture", "pattern", "accent wall", "molding", "trim", "baseboard",
+      "upholstery", "curtain", "drapes", "blinds", "shutters", "carpet", "rug",
+      "cushion", "throw pillow", "fireplace", "mantel", "staircase", "banister",
+      "home office", "workspace", "vanity", "walk-in closet", "home theater",
+      "patio", "balcony", "terrace", "garden", "landscaping", "outdoor furniture",
+      "renovation", "remodel", "storage", "modular", "compact", "loft", "attic",
+      "basement", "hallway", "partition", "room divider", "accent lighting","furniture","furnitures"
+    ],
+    "it": [
+      "cucina", "bagno", "soggiorno", "camera da letto", "sala da pranzo", "studio",
+      "open space", "ingresso", "armadio", "dispensa", "isola", "piano di lavoro",
+      "cassetto", "mobile", "lavello", "specchio", "vasca", "doccia", "wc",
+      "letto", "divano", "poltrona", "tavolo", "sedia", "libreria", "scaffale",
+      "illuminazione", "lampada", "lampada da terra", "lampadario", "applique",
+      "piastrelle", "legno", "teak", "marmo", "vetro", "acciaio", "cemento",
+      "moderno", "classico", "minimalista", "rustico", "industriale", "scandinavo",
+      "design", "layout", "arredamento", "interni", "decorazione", "stile","disegno","schizzo",
+      "parete", "pavimento", "soffitto", "colore", "nero", "bianco", "grigio", "blu", "verde",
+      "tessuto", "motivo", "parete decorativa", "modanatura", "bordo", "battiscopa",
+      "imbottitura", "tenda", "tendaggi", "veneziane", "persiane", "moquette", "tappeto",
+      "cuscino", "cuscino decorativo", "camino", "mensola", "scala", "corrimano",
+      "ufficio domestico", "spazio di lavoro", "toeletta", "cabina armadio", "home theater",
+      "terrazza", "balcone", "giardino", "arredo esterno", "paesaggistica",
+      "ristrutturazione", "rimodellare", "ripostiglio", "modulare", "compatto", "mansarda",
+      "seminterrato", "corridoio", "divisorio", "illuminazione d'accento","mobili","mobilis"
+    ]
+  },
+  "showroom_keywords": {
+    "en": [
+      "showroom", "location", "store", "where are you", "address", "visit", "opening hours",
+      "timetable", "working hours", "contacts", "phone", "email", "sestri", "cogorno","open","hours","time","Sestri Levante","levante",
+      "appointment", "consultation", "display", "exhibition", "catalog", "samples",
+      "branch", "come to", "how to find", "route", "directions","Sestri Levante","Cogorno","S. Salvatore","Genova","Genoa","ge"
+    ],
+    "it": [
+      "showroom", "negozio", "dove siete", "indirizzo", "visitare", "orari di apertura","sede",
+      "orario", "contatti", "telefono", "email", "sestri", "cogorno","aperto","chiusura","Sestri Levante","levante",
+      "appuntamento", "consulenza", "esposizione", "catalogo", "campioni",
+      "filiale", "come arrivare", "come trovare", "percorso", "indicazioni","Sestri Levante","Cogorno","S. Salvatore","Genova","Genoa","ge"
+    ]
+
+  },
+  "price_keywords": {
+    "en": [
+      "price", "cost", "quote", "how much", "estimate", "affordable", "budget", "quotation",
+      "discount", "sale", "promotion", "financing", "payment plan", "installments",
+      "payment", "invoice", "final cost", "total cost", "fee", "rates", "charges"
+    ],
+    "it": [
+      "prezzo", "costo", "preventivo", "quanto costa", "quanto", "spesa", "economico", "budget",
+      "sconto", "offerta", "promozione", "finanziamento", "piano di pagamento", "rate",
+      "pagamento", "fattura", "costo finale", "costo totale", "tariffa", "tasse", "oneri"
+    ]
+  },
+   "sketch": {
+    "en": ["sketch", "drawing", "sketches"],
+    "it": ["schizzo", "disegno", "schizzi"]
+  }
+}
