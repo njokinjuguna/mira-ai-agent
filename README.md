@@ -1,9 +1,8 @@
 #  Mira AI — Interior Design Assistant
 
-Mira is an AI-powered interior design assistant that helps users explore, generate, and visualize interior design ideas through natural conversation.
+Mira is an AI-powered interior design assistant that helps furniture showrooms and design businesses enhance customer experience, automate consultations, and visualize design ideas in real time.
 
-It combines computer vision, NLP, and generative AI to simulate the experience of working with a real interior designer.
-
+It combines computer vision, NLP, and generative AI to simulate the experience of working with a professional interior designer.
 
 ##  Features
 
@@ -32,7 +31,15 @@ Hybrid intent detection using:
 - Custom-trained ML classifier
 - Keyword fallback system
 
+## 💼 Business Value
 
+Mira helps businesses:
+
+- ⏱ Save time during client consultations  
+- 🧠 Assist customers in exploring design ideas faster  
+- 🖼️ Visualize concepts without manual sketches  
+- 📈 Improve customer engagement and experience  
+ 
 
 ## System Architecture
 Frontend (Next.js)
@@ -57,40 +64,7 @@ cost_tool (pricing logic)
 
 
 ## Project Structure
-mira-ai-agent/
-├── backend/
-│ ├── api/
-│ │ ├── router.py
-│ │ ├── handlers/
-│ │ └── main.py
-│ │
-│ ├── agent/
-│ │ ├── graph.py
-│ │ ├── tools.py
-│ │ ├── state.py
-│ │ └── memory.py
-│ │
-│ ├── utils/
-│ │ ├── drive_utils.py
-│ │ ├── language_utils.py
-│ │ └── designer_tone.py
-│ │
-│ ├── model/
-│ │ └── intent_classifier.pkl
-│ │
-│ └── training/
-│ └── train_intent_classifier.py
-│
-├── frontend/
-│ ├── components/
-│ │ ├── MiraAssistant.tsx
-│ │ ├── MiraAvatar.tsx
-│ │ └── ImageWithLoader.tsx
-│ │
-│ └── pages/
-│ └── index.tsx
-│
-└── README.md
+![img_1.png](img_1.png)
 
 
 
@@ -166,10 +140,11 @@ mira-ai-agent/
 
 ---
 
-## Author
+## 👩‍Author
 
-**Njoki Njuguna**  
+**Vivian Njuguna**  
 AI Developer | Full Stack Engineer  
+Founder — Vivi Solutions 
 
 ---
 
