@@ -91,14 +91,17 @@ Vercel (Recommended)
 Netlify
 Any Node.js hosting platform
 
-👩‍💻 Author
-
-Vivian Njuguna
-
-AI Developer | Vivi Solutions
 
 📌 Note
 
 This frontend is part of the Mira AI Agent system and works together with the backend service located in:
 
 mira-ai-agent/backend
+
+
+
+👩‍💻 Author
+
+Vivian Njuguna
+
+AI Developer | Vivi Solutions
