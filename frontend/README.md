@@ -102,6 +102,5 @@ mira-ai-agent/backend
 
 👩‍💻 Author
 
-Vivian Njuguna
-
-AI Developer | fullstack
+Njoki Njuguna
+AI Developer | Full Stack Engineer
