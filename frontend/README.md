@@ -1,40 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🎨 Mira AI — Frontend (Interior Design Assistant)
 
-## Getting Started
+This is the frontend application for **Mira AI**, an AI-powered interior design assistant that helps users explore, visualize, and generate interior design ideas through a modern conversational interface.
 
-First, run the development server:
+The frontend is built with **Next.js**, **React**, and **Tailwind CSS**, and connects to the Mira backend API.
+
+---
+
+## 🚀 Features
+
+- 💬 Interactive chat interface (Mira Assistant)
+- 🖼️ Image-based design search results
+- 🤖 AI avatar support (MiraAvatar)
+- 🌍 Multilingual support (English / Italian)
+- 🔄 Real-time communication with backend API
+- 🎨 Clean and responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+
+---
+
+## 📁 Project Structure
+![img.png](img.png)
+
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Install dependencies
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
+2. Run the development server
+```bash
+npm run dev
+```
+3. Open in browser
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+👉 http://localhost:3000
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+🔗 Backend Connection
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Make sure the backend is running and update your environment variables:
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a .env file:
+NEXT_PUBLIC_API_URL=http://localhost:8000
 
-## Learn More
+🧠 How It Works
 
-To learn more about Next.js, take a look at the following resources:
+User enters a query in the chat interface
+Frontend sends request to backend /mira endpoint
+Backend processes:
+Intent detection
+Image search / sketch generation
+Frontend displays:
+Text response
+Images / sketches
+Avatar response (if enabled)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+🌍 Multilingual Support
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Mira supports:
 
-## Deploy on Vercel
+🇬🇧 English
+🇮🇹 Italian
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Responses automatically adapt based on user input.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+📦 Build for Production
+
+```bash
+npm run build
+npm start
+```
+🚀 Deployment
+
+You can deploy the frontend easily on:
+
+Vercel (Recommended)
+Netlify
+Any Node.js hosting platform
+
+👩‍💻 Author
+
+Vivian Njuguna
+
+AI Developer | Vivi Solutions
+
+📌 Note
+
+This frontend is part of the Mira AI Agent system and works together with the backend service located in:
+
+mira-ai-agent/backend
