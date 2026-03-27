@@ -104,4 +104,4 @@ mira-ai-agent/backend
 
 Vivian Njuguna
 
-AI Developer | Vivi Solutions
+AI Developer | fullstack
